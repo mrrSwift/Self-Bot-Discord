@@ -1,0 +1,21 @@
+{
+
+    "botinfo":{
+        "Dev":"Mr Swift",
+        "Ver":"3.2",
+        "Licence":"MIT License"
+        
+    },
+    "botstat":{
+        "tokenbot":"<token>",
+        "prefix":"self!",
+        "botID":"<id>",
+        "ownerID":"<id>"
+
+        
+        
+        
+    }
+    
+
+}

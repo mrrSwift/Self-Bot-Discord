@@ -18,8 +18,8 @@ const Discord = require('discord.js');
       
         if (args[0] === on){
 
-            var t1 = setInterval(startTyping, 10000);
-            var t1 = setInterval(stopTyping, 5000);
+            var t1 = setInterval(startTyping, 5000);
+            var t1 = setInterval(stopTyping, 10000);
 
             function startTyping() {
 
@@ -51,7 +51,7 @@ const Discord = require('discord.js');
         }
             
            
-            console.log(`-----------------------\n\nUse Date Jalili [1] \n\n Date : ${date00}\n\n -----------------------` )
+            console.log(`start typing ${args[0]}` )
        
      }
  }

@@ -18,7 +18,7 @@
 ------------------------------------------------------------
 #### Libraries participating in this project
 
--Discord.Js
+-discord.js-self
 
 -quick.db
 

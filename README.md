@@ -50,11 +50,10 @@ npm install
 ```css 
    "botstat":{
         "tokenbot":" ",
-        "prefix":"%",
+        "prefix":"md!",
         "botID":" ",
         "ownerID":" ",
-        "twichtUrl":" ",
-        "invUrl":" "
+        
 ```
 
 

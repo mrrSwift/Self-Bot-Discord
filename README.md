@@ -64,4 +64,20 @@ npm install
 node .
 ```
  
+---------------------------------------------
 
+## How Find account API token
+
+Hold the (Ctrl + Shift + I) keys inside the Discord app
+
+Then go to the (Network) tab in the page that opens
+
+And press the (Ctrl + R) key and search for the word api in the search field
+
+Go to the option in the science name list
+
+Then go to the Headers tab and at the bottom of your token list is your account
+
+Copy it and paste it in the config.json file
+
+Example for token API : {xXx3MzQxXxY1MDYxXxI0ODEx.JexXxLFGCyxXxa20n4xXxuJIxXx}

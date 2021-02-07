@@ -16,42 +16,30 @@ const Discord = require('discord.js');
      async run (client,message, args){
         /*   Made by Mr Swift  */
       
-        if (args[0] === on){
+       
 
             var t1 = setInterval(startTyping, 5000);
-            var t1 = setInterval(stopTyping, 10000);
+            
 
             function startTyping() {
 
 
                 message.channel.startTyping();
 
-                
+                 sleep();
+                message.channel.send(`${args[0]}`);
+
+
             }
-            function stopTyping() {
 
-                message.channel.stopTyping();
-
-                }
-
-
-        }
-
-        if (args[0] === off){
+            function sleep() {
+                setTimeout(() => { console.log("gg!"); }, 4000);
+            
+        
 
             
-
-
-                message.channel.stopTyping();
-
+            }
             
-            
-
-
-        }
-            
-           
-            console.log(`start typing ${args[0]}` )
        
      }
  }

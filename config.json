@@ -7,10 +7,10 @@
         
     },
     "botstat":{
-        "tokenbot":"<token>",
+        "tokenbot":"token",
         "prefix":"self!",
-        "botID":"<id>",
-        "ownerID":"<id>"
+        "botID":"id",
+        "ownerID":"id"
 
         
         

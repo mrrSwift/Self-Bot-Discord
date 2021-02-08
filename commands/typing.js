@@ -18,7 +18,7 @@ const Discord = require('discord.js');
       
        
 
-            var t1 = setInterval(startTyping, 5000);
+            var t1 = setInterval(startTyping, 8000);
             
 
             function startTyping() {

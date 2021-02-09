@@ -1,6 +1,6 @@
 {
   "name": "self-bot-discord",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "first self bot discord (Mr Swift)",
   "main": "index.js",
   "scripts": {

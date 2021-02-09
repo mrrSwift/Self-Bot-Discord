@@ -81,4 +81,4 @@ Then go to the Headers tab and at the bottom of your token list is your account
 
 Copy it and paste it in the config.json file
 
-Example for token API : {xXx3MzQxXxY1MDYxXxI0ODEx.JexXxLFGCyxXxa20n4xXxuJIxXx}
+Example for token API : {mfa.jxxxSfsexxxBtHUrsixxxw1MD2XedIuwexxxFh7fdTAQsFxxx8Wkrjfwmxxxl5zvxxxhFkxxygwjdxxxaNp}

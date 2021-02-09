@@ -8,7 +8,7 @@
 /*                                                                         */
 /***************************************************************************/
 const Discord = require('discord.js');
-
+const config = require("../config.json")
  module.exports = {
      name:"typing",
      description:"Say Date",
@@ -16,7 +16,8 @@ const Discord = require('discord.js');
      async run (client,message, args){
         /*   Made by Mr Swift  */
       
-       
+        const idowner = `${config.botstat.ownerID}`
+       if(message.author.id === idowner) {
 
             var t1 = setInterval(startTyping, 8000);
             
@@ -36,7 +37,7 @@ const Discord = require('discord.js');
                 setTimeout(() => { console.log("gg!"); }, 4000);
             
         
-
+            }
             
             }
             

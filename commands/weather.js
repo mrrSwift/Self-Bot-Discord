@@ -26,7 +26,7 @@ module.exports = {
 /*   Made by Mr Swift  */
           
              message.channel.startTyping();
-             message.channel.send(`**${current.skytext}** \n𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐟𝐨𝐫𝐞𝐜𝐚𝐬𝐭 𝐟𝐨𝐫 ${current.observationpoint} \n𝐓𝐢𝐦𝐞𝐳𝐨𝐧𝐞 UTC ${location.timezone} \n𝐃𝐞𝐠𝐫𝐞𝐞 𝐓𝐲𝐩𝐞: 𝐂𝐞𝐥𝐬𝐢𝐮𝐬 \n𝐓𝐞𝐦𝐩𝐞𝐫𝐚𝐭𝐮𝐫𝐞: ${current.temperature} \n𝐖𝐢𝐧𝐝 :${current.winddisplay}\n 𝐅𝐞𝐞𝐥𝐬 𝐥𝐢𝐤𝐞: ${current.feelslike} \n𝐇𝐮𝐦𝐢𝐟𝐢𝐭𝐲: ${current.humidity} %`);
+             message.channel.send(`**${current.skytext}** \n 𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐟𝐨𝐫𝐞𝐜𝐚𝐬𝐭 𝐟𝐨𝐫 ${current.observationpoint} \n 𝐓𝐢𝐦𝐞𝐳𝐨𝐧𝐞 UTC ${location.timezone} \n 𝐃𝐞𝐠𝐫𝐞𝐞 𝐓𝐲𝐩𝐞: 𝐂𝐞𝐥𝐬𝐢𝐮𝐬 \n 𝐓𝐞𝐦𝐩𝐞𝐫𝐚𝐭𝐮𝐫𝐞: ${current.temperature} \n 𝐖𝐢𝐧𝐝 :${current.winddisplay}\n 𝐅𝐞𝐞𝐥𝐬 𝐥𝐢𝐤𝐞: ${current.feelslike} \n 𝐇𝐮𝐦𝐢𝐟𝐢𝐭𝐲: ${current.humidity} %`);
              message.channel.stopTyping()
 
         })

@@ -25,16 +25,22 @@ const config = require("../config.json")
             function startTyping() {
 
 
+                try {
                 message.channel.startTyping();
 
                  sleep();
                 message.channel.send(`${args[0]}`);
 
+                }
+                catch(err) {
+                    console.log(`${err}`)
+                }
+
 
             }
 
             function sleep() {
-                setTimeout(() => { console.log("gg!"); }, 4000);
+                setTimeout(() => { console.log("Next!"); }, 4000);
             
         
             }

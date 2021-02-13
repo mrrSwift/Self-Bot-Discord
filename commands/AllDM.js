@@ -40,7 +40,7 @@ module.exports = {
         for (var i = 0; i < membercount; i++) {
             let member = memberarray[i];
             if (member.user.bot) {
-                console.log(`Skipping bot with name ${member.user.username}`)
+                console.log(`Skipping bot with name  ${member.user.username}`)
                 botcount++;
                 continue
             }
@@ -48,9 +48,9 @@ module.exports = {
             let timeout = Math.floor((Math.random() * (10 - 0.01)) * 1000) + 10;
             await sleep(timeout);
             if(i == (membercount-1)) {
-                console.log(`Waited ${timeout}ms.\t\\/\tDMing ${member.user.username}`);
+                console.log(`Waited ${timeout}ms. \t\\/\tDMing ${member.user.username}`);
             } else {
-                console.log(`Waited ${timeout}ms.\t|${i + 1}|\tDMing ${member.user.username}`);
+                console.log(`Waited ${timeout}ms. \t|${i + 1}|\tDMing ${member.user.username}`);
             }
             try {
                 member.send(`${msg} `);

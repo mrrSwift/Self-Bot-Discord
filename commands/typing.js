@@ -33,7 +33,7 @@ const config = require("../config.json")
 
                 }
                 catch(err) {
-                    console.log(`${err}`)
+                    console.log(`error`)
                 }
 
 
